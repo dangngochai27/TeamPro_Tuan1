@@ -13,9 +13,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+<<<<<<< HEAD
     public void Tong(View view) {
         Intent intent = new Intent(MainActivity.this, tong2so.class);
         startActivity(intent);
     }
 
+=======
+    public void Nhan2so(View view) {
+        Intent intent = new Intent(MainActivity.this, NhanActivity.class);
+        startActivity(intent);
+    }
+>>>>>>> bdcd0aa520cf6695a2e6fde5aebfee7602ff8550
 }

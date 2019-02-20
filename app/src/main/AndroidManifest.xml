@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".tong2so"></activity>
+=======
+        <activity android:name=".NhanActivity"></activity>
+>>>>>>> bdcd0aa520cf6695a2e6fde5aebfee7602ff8550
     </application>
 
 </manifest>
