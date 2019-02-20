@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.myapplication.tong2so"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20pt"
+            android:text="A:" />
+        <EditText
+            android:id="@+id/edt_Soa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20pt"
+            android:text="B:" />
+        <EditText
+            android:id="@+id/edt_Sob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_Hieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tong"
+        android:onClick="Tong"
+        android:textSize="10pt"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="Tong:" />
+
+        <TextView
+            android:id="@+id/tv_Kq"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
